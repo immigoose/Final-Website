@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+.digital{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    flex-wrap:wrap;
+}
+
+img{
+  max-width: 30%; /* Scale down if needed */
+  height: auto;    /* Adjust height automatically */
+  display: block;  /* Remove inline spacing issues */
+}
