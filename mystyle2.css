@@ -9,8 +9,15 @@ body{
     flex-wrap:wrap;
 }
 
-img{
+#dida{
   max-width: 30%; /* Scale down if needed */
   height: auto;    /* Adjust height automatically */
   display: block;  /* Remove inline spacing issues */
 }
+
+#moon{
+  max-width: 30%; /* Scale down if needed */
+  height: auto;    /* Adjust height automatically */
+  display: block;  /* Remove inline spacing issues */
+}
+
