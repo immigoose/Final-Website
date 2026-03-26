@@ -2,12 +2,21 @@
   font-family: fancy;
   src: url(/workspaces/Final-Website/fonts/EagleLake-Regular.ttf);
 }
-#name{
-  display:flex;
-  font-size: 200px;
-  font-style: fancy;
-  flex-direction: column;
-  justify-content: flex-start;
-  
 
+.banner1 img{
+    display:block;
+    z-index: 0;
+    height:auto;
+    opacity: 0.5;
+    margin: 0;
+    width: 100%; 
+}
+
+.banner1 h1{
+    font-size: 70px;
+    display:flex;
+    position: absolute;
+    top: 100px;
+    justify-content: left;
+    color:black;
 }
