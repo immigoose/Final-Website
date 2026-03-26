@@ -1,6 +1,6 @@
 @font-face {
   font-family: fancy;
-  src: url(/workspaces/Final-Website/fonts/EagleLake-Regular.ttf);
+  src: url(./fonts/EagleLake-Regular.ttf);
 }
 
 .banner1 img{
@@ -10,13 +10,85 @@
     opacity: 0.5;
     margin: 0;
     width: 100%; 
+    border-radius: 200px;
+    border: 3px solid #555555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .banner1 h1{
-    font-size: 70px;
+    font-size: 100px;
     display:flex;
     position: absolute;
-    top: 100px;
+    top: 60px;
     justify-content: left;
     color:black;
+    z-index: 1;
+    line-height: 1.8;
+    margin-left: 60px;
+    font-family: fancy; 
+}
+.textboxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.textboxes summary{
+  font-size: 300%;
+  font-family: fancy;
+}
+
+.textboxes p{
+  font-size:150%;
+}
+
+
+
+.personalinfos {
+  margin-left:200px;
+  margin-top:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.personalinfos h1{
+  font-size:300%;
+  font-family: fancy;
+}
+
+.middle {
+  margin-left:5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.textboxes{
+  display: flex;
+  flex-direction: column;
+}
+
+.middle.personalinfos {
+  margin-left:100vw;
+  display: flex;
+  flex-direction: column;
+
+}
+.personalinfos p{
+  display:block;
+  margin-right: 100px;
+  font-size: 150%;
+}
+
+img{
+  display:flex;
+  justify-content: flex-end;
+  margin-top:30px;
+  margin-right: 600px;
+  height: 500px;
+  width: auto;
+  border-radius: 100px;
+  border: 3px solid #555555;
+  box-shadow: 0 4px 8px rgba(116, 116, 116, 0.3);
 }
