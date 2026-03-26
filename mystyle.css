@@ -1,0 +1,13 @@
+@font-face {
+  font-family: fancy;
+  src: url(/workspaces/Final-Website/fonts/EagleLake-Regular.ttf);
+}
+#name{
+  display:flex;
+  font-size: 200px;
+  font-style: fancy;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+
+}
