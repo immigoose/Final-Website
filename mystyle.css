@@ -2,7 +2,14 @@
   font-family: fancy;
   src: url(./fonts/EagleLake-Regular.ttf);
 }
+@font-face {
+  font-family: artsy;
+  src: url(./fonts/FacultyGlyphic-Regular.ttf);
+}
 
+body{
+    background-color: rgb(203, 234, 239);
+}
 .banner1 img{
     display:block;
     z-index: 0;
@@ -24,7 +31,7 @@
     color:black;
     z-index: 1;
     line-height: 1.8;
-    margin-left: 60px;
+    margin-left: 100px;
     font-family: fancy; 
 }
 .textboxes{
@@ -41,6 +48,7 @@
 
 .textboxes p{
   font-size:150%;
+  font-family: artsy;
 }
 
 
@@ -56,6 +64,9 @@
 .personalinfos h1{
   font-size:300%;
   font-family: fancy;
+}
+.personalinfos p{
+  font-family: artsy;
 }
 
 .middle {

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: artsy;
+  src: url(./fonts/FacultyGlyphic-Regular.ttf);
+}
+
 body{
     background-color: gray;
 }
@@ -11,7 +16,7 @@ body{
 
 
 .galleryimg {
-  height: 500px;
+  height: 600px;
   object-fit: scale-down;
 }
 
@@ -20,4 +25,9 @@ body{
   flex-direction: column;
   align-items: center;
 
+}
+
+.entry p{
+  font-family: artsy;
+  font-size: 130%;
 }
