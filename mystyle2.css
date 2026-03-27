@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    margin-top: 5vw;
+    margin-top: 3vw;
     flex-wrap:wrap;
 }
 

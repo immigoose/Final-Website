@@ -1,0 +1,59 @@
+@font-face {
+  font-family: artsy;
+  src: url(./fonts/FacultyGlyphic-Regular.ttf);
+}
+@font-face {
+  font-family: fancy;
+  src: url(./fonts/EagleLake-Regular.ttf);
+}
+
+body{
+    background-image: url(./bilder/clouds.png);
+    background-size: cover;
+    background-color: gray;
+}
+
+.header h1{
+    font-family: fancy;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+.header p{
+    font-family: artsy;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1vw;
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.concepts{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+    flex-wrap:wrap;
+}
+
+
+.galleryimg {
+  height: 600px;
+  object-fit: scale-down;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.entry p{
+  font-family: artsy;
+  font-size: 130%;
+}
