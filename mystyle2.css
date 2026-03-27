@@ -3,6 +3,11 @@
   src: url(./fonts/FacultyGlyphic-Regular.ttf);
 }
 
+@font-face {
+  font-family: fancy;
+  src: url(./fonts/EagleLake-Regular.ttf);
+}
+
 body{
     background-color: gray;
 }
@@ -30,4 +35,24 @@ body{
 .entry p{
   font-family: artsy;
   font-size: 130%;
+}
+
+.header h1{
+    font-family: fancy;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+
+.header p{
+    font-family: artsy;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1vw;
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
