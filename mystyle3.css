@@ -57,3 +57,29 @@ body{
   font-family: artsy;
   font-size: 130%;
 }
+
+.orders{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#LogoM{
+    width:20vw;
+    height:auto;
+    margin-left:3vw;
+}
+
+.OotM{
+    margin-left: 2vw;
+    margin-right: 0vw;
+}
+.OotM h1{
+    font-size: 2vw;
+    font-family: fancy;
+}
+
+.OotM p{
+    font-size: 120%;
+    font-family: artsy;
+}

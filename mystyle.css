@@ -23,7 +23,7 @@ body{
 }
 
 .banner1 h1{
-    font-size: 100px;
+    font-size: 4vw;
     display:flex;
     position: absolute;
     top: 60px;
